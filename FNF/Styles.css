@@ -1,0 +1,227 @@
+@font-face{
+  font-family: telenorItalicimport;
+  src:url(telenorItalic.TTF); 
+
+}
+@font-face{
+  font-family: TelenorRegularimport;
+  src:url(TelenorRegular.TTF);
+
+}
+body{
+ height: 1920px;
+ width: 1080px;
+ padding: 0px;
+ background-color: #f7f7f7;
+}
+.nav-discount{
+ background-image: url("fnf1.png");
+ background-repeat: no-repeat;   
+ height: 244px;
+}
+.btn{
+  background-color: transparent!important;
+}
+.container-fluid{
+ padding: 0px;
+}
+
+.Home-button{
+ position: absolute;
+ top: 80px;
+ right: 64px;
+
+}
+.back-button{
+ position: absolute;
+ top: 80px;
+ left: 64px;
+}
+.jumbotron{
+ background-color: #303030;
+}
+.jumbotron .btn {
+ font-size: 50px;
+ padding: 14px 24px;
+ color: white;
+}
+
+.introjs-tooltip {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    font-size: 31px;
+    padding: 10px;
+    background-color: white;
+    height: 300px;
+    min-width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.4);
+    -webkit-transition: opacity 0.1s ease-out;
+    -moz-transition: opacity 0.1s ease-out;
+    -ms-transition: opacity 0.1s ease-out;
+    -o-transition: opacity 0.1s ease-out;
+    transition: opacity 0.1s ease-out;
+}
+.introjs-helperNumberLayer {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    top: -26px;
+    left: 82px;
+    z-index: 9999999999 !important;
+    padding: 10px 3px 0px 3px;
+    /* padding: 3px 0px 0px 0px; */
+    font-family: Arial, verdana, tahoma;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    background: #ff3019;
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff3019), color-stop(100%, #cf0404));
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -o-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0)";
+    filter: "progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=ff0000)";
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+}
+.introjs-bullets ul li a {
+    box-sizing: content-box;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #e3dbdb;
+    border-radius: 05px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.introjs-tooltipbuttons {
+    text-align: center;
+    white-space: nowrap;
+}
+[role=button] {
+    cursor: pointer;
+    /*height: 30px;
+    width: 70px;*/
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.btn1 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: white;
+    height: 80px;
+    width: 280px;
+    margin: -140px 0 0 650px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-color: #dc1940;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 3px solid red;
+    border-radius: 14px;
+}
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+.fnf-package{
+     position: absolute;
+    z-index: 1000;
+    /*background-color: green;
+    opacity: .3;*/
+    width: 100%;
+    height: 1007px;
+    top: 242px;
+}
+.introjs-helperLayer{
+    background-color: white!important;
+    opacity: .3;
+}
+
+.Fnf-AddFnf{
+    height: 145px;
+    width: 320px;
+    position: absolute;
+    top: 847px;
+    left: 380px;
+    /*background-color: red;
+    opacity: .3;*/
+}
+
+
+/*Popup*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1200;
+}
+.popup {
+ margin: 870px auto;
+ padding: 20px;
+ background: #fff;
+ border-radius: 15px;
+ font-size: 30px;
+ width: 70%;
+ position: relative;
+ transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 13px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+.popup .close:hover {
+  color: blue;
+}
+.popup .content {
+    max-height: 30%;
+    margin-top: 40px;
+    overflow: auto;
+    padding-bottom: 35px;
+    padding-left: 60px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: TelenorRegularimport;
+}

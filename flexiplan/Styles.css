@@ -1,0 +1,427 @@
+@font-face{
+  font-family: TelenorLightimport;
+  src:url(TelenorLight.TTF); 
+
+}
+@font-face{
+  font-family: TelenorRegularimport;
+  src:url(TelenorRegular.TTF);
+
+}
+body{
+ height: 1920px;
+ width: 1080px;
+ padding: 0px;
+ background-color: #f7f7f7;
+}
+.nav-notification{
+ height: 244px;
+ position: fixed;
+ z-index: 1000;
+}
+.btn{
+  background-color: transparent!important;
+}
+.container-fluid{
+ padding: 0px;
+ margin: 0px;
+}
+
+.Home-button{
+ position: absolute;
+ top: 80px;
+ right: 64px;
+
+}
+.back-button{
+ position: absolute;
+ top: 80px;
+ left: 64px;
+}
+.internet{
+ /*background-color: red;
+ opacity: .3;*/
+ height: 500px;
+ padding: 0px;
+ margin: 0px;
+ background-color: #f7f7f7;
+}
+.talktime{
+ /*background-color: red;
+ opacity: .3;*/
+ height: 500px;
+ padding: 0px;
+ margin: 10px 0px 0px 0px;
+ background-color: #f7f7f7;
+}
+.validity{
+ /*background-color: red;
+ opacity: .3;*/
+ height: 350px;
+ padding: 0px;
+ margin: 10px 0px 0px 0px;
+ background-color: #f7f7f7;
+}
+.sms{
+ /*background-color: red;
+ opacity: .3;*/
+ height: 335px;
+ padding: 0px;
+ margin: 10px 0px 0px 0px;
+ background-color: #f7f7f7;
+}
+.internet-cercle{
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ margin-left: 50px;
+ text-align: center;
+ display: inline-block;
+ padding-top: 46px;
+ font-size: 25px;
+ border:2px solid rgb(110,111,113);
+
+}
+.internet-cercle1{
+ width: 130px;
+ height: 130px;
+ text-align: center;
+ font-size: 25px;
+ border-radius: 50%;
+ margin-left: 124px;
+ margin-top: 28px;
+ display: inline-block;
+ border:2px solid rgb(110,111,113);
+ padding-top: 46px;
+}
+.internet-cercle4{
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ margin-left: 124px;
+ margin-top: 24px;
+ display: inline-block;
+ border:2px solid rgb(110,111,113);
+ text-align: center;
+ font-size: 25px;
+ padding-top: 46px;
+}
+.internet-cercle7{
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ margin-left: 124px;
+ margin-top: 30px;
+ display: inline-block;
+ border:2px solid rgb(110,111,113);
+ text-align: center;
+ font-size: 25px;
+ padding-top: 46px;
+}
+.internet-battijole{
+    background-color: rgb(138,195,73);
+    color: white;
+    border: 0px;
+}
+.talk-battijole{
+    background-color: rgb(234,30,90);
+    color: white;
+    border: 0px;
+}
+.validity-battijole{
+    background-color: rgb(255,196,1);
+    color: white;
+    border: 0px;
+}
+.sms-battijole{
+    background-color: rgb(2,135,209);
+    color: white;
+    border: 0px;
+}
+#internet-left{
+    height: 500px;
+    padding: 0px;
+    
+}
+#internet-img{
+    position: absolute;
+    top: 50px;
+    display: inline-block;
+    left: 24px;
+}
+#internet-tag{
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 167px;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 162px;
+    height: 52px;
+}
+#talktime-tag{
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 98px;
+    left: 167px;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 190px;
+    height: 52px;
+}
+
+#validity-tag{
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 105px;
+    left: 167px;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 162px;
+    height: 52px;
+}
+#sms-tag{
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 105px;
+    left: 167px;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 162px;
+    height: 52px;
+}
+/*tutorial*/
+.jumbotron{
+    background-color: #303030;
+}
+.jumbotron .btn {
+    font-size: 50px;
+    padding: 14px 24px;
+    color: white;
+    position: absolute;
+    right: 50px;
+
+
+}
+.introjs-helperLayer{
+    background-color: white!important;
+    opacity: .5;
+}
+.introjs-tooltip {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    font-size: 31px;
+    padding: 20px;
+    background-color: white;
+    /*height: 300px;*/
+    min-height: 250px;
+    min-width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.4);
+    -webkit-transition: opacity 0.1s ease-out;
+    -moz-transition: opacity 0.1s ease-out;
+    -ms-transition: opacity 0.1s ease-out;
+    -o-transition: opacity 0.1s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+.introjs-bullets ul li a {
+    box-sizing: content-box;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #e3dbdb;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.introjs-helperNumberLayer {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    top: 10px;
+    left: 30px;
+    z-index: 9999999999 !important;
+    padding: 10px 3px 0px 3px;
+    /* padding: 3px 0px 0px 0px; */
+    font-family: Arial, verdana, tahoma;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    background: #ff3019;
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff3019), color-stop(100%, #cf0404));
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -o-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0)";
+    filter: "progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=ff0000)";
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+}
+.introjs-tooltipbuttons {
+    text-align: center;
+    white-space: nowrap;
+}
+[role=button] {
+    cursor: pointer;
+    /*height: 30px;
+    width: 70px;*/
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.btn1 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: white;
+    height: 80px;
+    width: 280px;
+    margin: -140px 0 0 650px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-color: #dc1940;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 3px solid red;
+    border-radius: 14px;
+}
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*Popup*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  z-index: 1200;
+}
+.overlay:target {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1200;
+}
+.popup {
+ margin: 870px auto;
+ padding: 20px 15px 50px;
+ background: #fff;
+ border-radius: 15px;
+ font-size: 30px;
+ width: 70%;
+ position: relative;
+ transition: all 5s ease-in-out;
+}
+.popup .close {
+    position: absolute;
+    top: 335px;
+    padding-top: 15px;
+    right: 330px;
+    transition: all 200ms;
+    font-size: 27px;
+    /* font-weight: bold; */
+    text-align: center;
+    width: 104px;
+    height: 50px;
+    /* text-decoration: none; */
+    color: white;
+    border-color: #1e88e5;
+    opacity: 1;
+    background-color: #1e88e5;
+    border-radius: 8px;
+    font-family: TelenorRegularimport; 
+}
+.popup .close:hover {
+  color: blue;
+}
+.popup .content {
+    max-height: 30%;
+    margin-top: 5px;
+    overflow: auto;
+    padding-bottom: 35px;
+    padding-left: 60px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: TelenorRegularimport;
+}
+
+
+#active-normal{
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 235px;
+    padding-top: 4px;
+    text-align: center;
+    left: 167px;
+    border-radius: 50px;
+    width: 200px;
+    border: 2px solid;
+    border-color: #181919;
+    height: 55px;
+    text-align: center;
+    font-family: TelenorRegularimport;
+}
+#other-normal{
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 167px;
+    text-align: center;
+    width: 200px;
+    height: 55px;
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: #181919;
+    font-family: TelenorRegularimport;
+}
+.battijole{
+    background-color: #00ace7;
+    color: white;
+    border-color: #00ace7 !important;
+}
+.upper-design{
+    background-color: #1e88e5;
+    position: relative;
+    left: -16px;
+    height: 80px;
+    border-radius: 15px 15px 0px 0px;
+    top: -20px;
+    width: 757px;
+}

@@ -1,0 +1,83 @@
+@font-face{
+  font-family: telenorItalicimport;
+  src:url(telenorItalic.TTF); 
+
+}
+@font-face{
+  font-family: TelenorRegularimport;
+  src:url(TelenorRegular.TTF);
+
+}
+body{
+ height: 1920px;
+ width: 1080px;
+ background-image: url("discount packs.png");
+}
+.btn{
+  background-color: transparent!important;
+}
+.container-fluid{
+ padding: 0px;
+}
+
+.Home-button{
+ position: absolute;
+ top: 80px;
+ right: 64px;
+
+}
+.back-button{
+ position: absolute;
+ top: 80px;
+ left: 64px;
+}
+.jumbotron{
+ background-color: #303030;
+}
+.jumbotron .btn {
+ font-size: 50px;
+ padding: 14px 24px;
+ color: white;
+}
+
+.introjs-tooltip {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    font-size: 31px;
+    padding: 10px;
+    background-color: white;
+    height: 300px;
+    min-width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.4);
+    -webkit-transition: opacity 0.1s ease-out;
+    -moz-transition: opacity 0.1s ease-out;
+    -ms-transition: opacity 0.1s ease-out;
+    -o-transition: opacity 0.1s ease-out;
+    transition: opacity 0.1s ease-out;
+}
+.introjs-bullets ul li a {
+    box-sizing: content-box;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #e3dbdb;
+    border-radius: 05px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.introjs-tooltipbuttons {
+    text-align: center;
+    white-space: nowrap;
+}
+[role=button] {
+    cursor: pointer;
+    /*height: 30px;
+    width: 70px;*/
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 10px;
+}

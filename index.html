@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gp Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+
+    <!-- styles -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="demo.css" rel="stylesheet">
+
+ 
+     <!-- Add IntroJs styles -->
+    <link href="introjs.css" rel="stylesheet">
+    <link href="bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+
+         
+        <div id="step2" class="Header-nav">
+          <a href="myProfile/index.html"><img src="Header.png"></a>
+        </div>
+         
+        <div class="jumbotron" style="position: fixed;width: 1080px;top:1709px;height: 150px; z-index: 10000 ">
+        <p style="color: white;display: inline-block;font-size: 60px!important;margin-right: 380px;margin-top: -13px;">My GP Tutorial </p>
+         <a  class="btn1" href="javascript:void(0);" onclick="startIntro();">Show Me</a>
+      </div>
+
+
+       <div class="body-section">
+         <img src="home scroll.png">
+         
+         <a href="accountbalance/index.html"><div class="account-balance" id="step3">        
+           <img src="home1.png">
+         </div></a>
+
+         <a href="#popup1"><div class="shake-win" id="step4">
+           <img src="home 2.png">
+         </div></a>
+
+         <div class="brackAdd">
+           <img src="bracAd.png">
+         </div>
+
+         <div class="shoparuAd">
+           <img src="shoparuAd.png">
+         </div>         
+ 
+         
+         <a href="#popup1"><div class="quick-shortcuts" id="step5"></a>
+           <a href="flexiplan/index.html"><div class="flexiplan"></div></a>
+           <a href="payBills/index.html"><div class="pay-bill"></div></a>
+           <a href="ManagePlans/index.html"><div class="Manage-plan"></div></a>
+           <a href="FNF/index.html"><div class="FNF"></div></a>   
+           <img src="home3.png">   
+         </div>
+        
+        <!-- Popup -->
+        <div id="popup1" class="overlay">
+              <div class="popup">
+                  <a class="close" href="index.html">&times;</a>
+                  <div class="content">
+                     Use your cellphone to experience this feature fully.
+                  </div>
+              </div>
+        </div>
+
+        <a href="quickRecharge/index.html">
+         <div class="quick-recharge" id="step6">
+            <div class="quick-recharge-button"></div>
+            <img src="home 4 .png"> 
+         </div>
+         </a>
+
+       </div>
+
+          <div id="step1" class="footer-nav" >
+             <img src="footer.png">
+             <a href="index.html"><div class="home"></div></a>
+             <a href="buyPacks/index.html"><div class="Buy-packs"></div></a>
+             <a href="myProfile/index.html"><div class="Gp-star"></div></a>
+             <a href="Notification/index.html"><div class="Notification"></div></a>
+            <!--  <a href="#popup1">></a> -->
+            <div class="more" style="font-size:30px;cursor:pointer" onclick="openNav()"></div>
+         </div>
+          
+        <!-- sidenav -->
+        <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#"><div>
+                <img src="moremenu.png">
+              </div></a>
+              <a href="index.html"><div class="more-Btn">
+                <img src="moremenu2.png">
+              </div></a>
+              <a href="myProfile/index.html"><div class="more-Btn">
+                <img src="moremenu3.png">
+              </div></a>
+              <a href="ManagePlans/index.html"><div class="more-Btn">
+                <img src="moremenu4.png">
+              </div></a>
+              <a href="buyPacks/index.html"><div class="more-Btn">
+                <img src="moremenu5.png">
+              </div></a>
+              <a href="ReferAndEarn1/index.html"><div class="more-Btn">
+                <img src="moremenu6.png">
+              </div></a>
+              <a href="MyCoupon/index.html"><div class="more-Btn">
+                <img src="moremenu7.png">
+              </div></a>
+              <a href="AboutUs/index.html"><div class="more-Btn">
+                <img src="moremenu8.png">
+              </div></a>
+              <a href="Support/index.html"><div class="more-Btn">
+                <img src="moremenu9.png">
+              </div>              
+              </a>
+             
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="intro.js"></script>
+    <script type="text/javascript">
+      function startIntro(){
+        var intro = introJs();
+          intro.setOptions({
+            steps: [
+             
+              {
+                element: '#step1',
+                intro: 'These are the features of the App that Lets you choose packages and view updates. ',
+                position: 'bottom'
+              },
+              {
+                element: '#step2',
+                intro: 'This area shows you your Personal Information and package status.',
+                position: 'left'
+              },
+
+              {
+                element: '#step3',
+                intro: 'This area shows you your Billing status and Account balance.',
+                position: 'right'
+              },
+              {
+                element: '#step4',
+                intro: 'You Can Avail discounts and offers in this area by shaking your phone.',
+                position: 'right'
+              },
+              {
+                element: '#step5',
+                intro: 'Quick shortcuts lets you jump between features and packages for purchase.',
+                position: 'right'
+              },
+              {
+                element: '#step6',
+                intro: 'You can Recharge your Account Quickly from this area.',
+                position: 'right'
+              },
+            ]
+          });
+
+          intro.start();
+      }
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "887px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+  </body>
+</html>
+
+
+ 

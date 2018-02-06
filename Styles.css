@@ -1,0 +1,422 @@
+
+@font-face{
+    font-family: TelenorRegularimport;
+    src:url(Telenor Regular.TTF);
+
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.btn{
+    background-color: transparent!important;
+}
+
+.jumbotron{
+    background-color: #303030;
+}
+.jumbotron .btn {
+    font-size: 50px;
+    padding: 14px 24px;
+    color: white;
+    position: absolute;
+    right: 50px;
+
+
+}
+.introjs-helperLayer{
+    background-color: white!important;
+    opacity: .5;
+}
+.introjs-tooltip {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    font-size: 31px;
+    padding: 20px;
+    background-color: white;
+    /*height: 300px;*/
+    min-height: 250px;
+    min-width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.4);
+    -webkit-transition: opacity 0.1s ease-out;
+    -moz-transition: opacity 0.1s ease-out;
+    -ms-transition: opacity 0.1s ease-out;
+    -o-transition: opacity 0.1s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+.introjs-bullets ul li a {
+    box-sizing: content-box;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #e3dbdb;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.introjs-helperNumberLayer {
+    box-sizing: content-box;
+    position: absolute;
+    visibility: visible;
+    top: 10px;
+    left: 30px;
+    z-index: 9999999999 !important;
+    padding: 10px 3px 0px 3px;
+    /* padding: 3px 0px 0px 0px; */
+    font-family: Arial, verdana, tahoma;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    background: #ff3019;
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff3019), color-stop(100%, #cf0404));
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -o-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0)";
+    filter: "progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=ff0000)";
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+}
+.introjs-tooltipbuttons {
+    text-align: center;
+    white-space: nowrap;
+}
+[role=button] {
+    cursor: pointer;
+    /*height: 30px;
+    width: 70px;*/
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.Header-nav{
+    height: 463px;
+    padding: 0px;
+    z-index: 1000;
+    margin-top: -20px;
+    position: fixed;
+    overflow: hidden;
+}
+.body-section{
+    margin-top: 450px;
+    height: 1200px;
+
+}
+.footer-nav{
+    position: fixed;
+    overflow: hidden;
+    height: 170px;
+    padding: 0px;
+    margin-top:-72px;
+}
+.profile-div{
+    position: relative;
+    top: 10px;
+    /*background-color: red;*/
+    opacity: .3;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+
+}
+.account-balance{
+    position: absolute;
+    /*z-index: 1000;*/
+   /* background-color: red;*/
+    /*opacity: .3;*/
+    width: 1080px;
+    height: 640px;
+    top: 494px;
+    padding-left: 24px;
+
+}
+.shake-win{
+    position: absolute;
+    /*z-index: 1000;*/
+    /*background-color: blue;*/
+    /*opacity: .3;*/
+    width: 1080px;
+    height: 260px;
+    top: 1518px;
+    padding-left: 24px;
+
+}
+.quick-shortcuts{
+    position: absolute;
+    /*z-index: 1000;*/
+    /*background-color: green;*/
+    /*opacity: .3;*/
+    width: 100%;
+    height: 370px;
+    padding-left: 24px;
+    top: 1127px;
+}
+.quick-recharge{
+    position: absolute;
+    /*z-index: 1000;*/
+    /*background-color: red;*/
+    /*opacity: .3;*/
+    width: 100%;
+    height: 360px;
+    top: 1778px;
+    padding-left: 24px;
+}
+.brackAdd{
+    position: absolute;
+    /*z-index: 1000;*/
+    /*background-color: red;*/
+    /*opacity: .3;*/
+    width: 100%;
+    height: 360px;
+    top: 2159px;
+    padding-left: 24px;
+}
+.shoparuAd{
+    position: absolute;
+    /*z-index: 1000;*/
+    /*background-color: red;*/
+    /*opacity: .3;*/
+    width: 100%;
+    height: 360px;
+    top: 2618px;
+    padding-left: 24px;    
+}
+.btn1 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: white;
+    height: 80px;
+    width: 280px;
+    margin: -140px 0 0 650px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-color: #dc1940;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 3px solid red;
+    border-radius: 14px;
+}
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+.home{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 150px;
+    left: 30px;
+    top: 9px;
+}
+.Buy-packs{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 150px;
+    left: 247px;
+    top: 9px;
+}
+.Gp-star{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 150px;
+    left: 466px;
+    top: 9px;
+}
+.Notification{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 150px;
+    left: 686px;
+    top: 9px;
+}
+.more{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 150px;
+    left: 899px;
+    top: 9px;
+}
+.flexiplan{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 222px;
+    left: 130px;
+    top: 102px;
+}
+.pay-bill{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 222px;
+    left: 348px;
+    top: 102px;
+}
+
+.Manage-plan{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 222px;
+    left: 573px;
+    top: 102px;
+}
+.FNF{
+    position: absolute;
+    z-index: 1100;
+   /* background-color: red;
+    opacity: .3;*/
+    width: 150px;
+    height: 222px;
+    left: 804px;
+    top: 102px;
+}
+.quick-recharge-button{
+    position: absolute;
+    z-index: 1100;
+    /*background-color: red;
+    opacity: .3;*/
+    width: 937px;
+    height: 160px;
+    left: 68px;
+    top: 123px;
+}
+
+/*Popup*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1200;
+}
+.popup {
+ margin: 870px auto;
+ padding: 20px;
+ background: #fff;
+ border-radius: 15px;
+ font-size: 30px;
+ width: 70%;
+ position: relative;
+ transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+.popup .close:hover {
+  color: blue;
+}
+.popup .content {
+    max-height: 30%;
+    margin-top: 40px;
+    overflow: auto;
+    padding-bottom: 35px;
+    padding-left: 60px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: TelenorRegularimport;
+}
+
+
+/*sidenav*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1200;
+    top: 0;
+    left: 0;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+    transition: 0.4s;
+    /*padding-top: 60px;*/
+}
+
+.sidenav a {
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 100px;
+    margin-left: 50px;
+    color: #f7f7f7;
+}
+
+.more-Btn{
+    /*background-color:red;
+    opacity:.3;*/
+    margin-top: 75px;
+    margin-left: 96px;
+    height: 75px;
+}

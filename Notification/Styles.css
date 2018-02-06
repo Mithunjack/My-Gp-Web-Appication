@@ -1,0 +1,188 @@
+@font-face{
+  font-family: TelenorLightimport;
+  src:url(TelenorLight.TTF); 
+
+}
+@font-face{
+  font-family: TelenorRegularimport;
+  src:url(TelenorRegular.TTF);
+
+}
+body{
+ height: 1920px;
+ width: 1080px;
+ padding: 0px;
+ background-color: #f7f7f7;
+ font-smoothing:antialiased ;
+}
+.nav-notification{
+ background-image: url("Notifications1.png");
+ background-repeat: no-repeat;
+ height: 244px;
+}
+.btn{
+  background-color: transparent!important;
+}
+.container-fluid{
+ padding: 0px;
+ margin: 0px;
+}
+
+.Home-button{
+ position: absolute;
+ top: 80px;
+ right: 64px;
+
+}
+.back-button{
+ position: absolute;
+ top: 80px;
+ left: 64px;
+}
+.jumbotron{
+ background-color: #303030;
+}
+.jumbotron .btn {
+ font-size: 50px;
+ padding: 14px 24px;
+ color: white;
+}
+.offer{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 245px;
+    left: 42px;
+    top: 260px;
+}
+.Flexiplan{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 237px;
+    left: 42px;
+    top: 530px;
+}
+.Action-packs{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 238px;
+    left: 42px;
+    top: 791px;
+}
+.internet{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 238px;
+    left: 42px;
+    top: 1052px;
+}
+.talk-time{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 211px;
+    left: 42px;
+    top: 1567px;
+}
+.bundles{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 241px;
+    left: 42px;
+    top: 1311px;
+}
+.discount-packs{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 241px;
+    left: 42px;
+    top: 1411px;
+}
+.redeem-points{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 160px;
+    left: 42px;
+    top: 1598px;
+}
+.popup-close-button{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 914px;
+    top: 361px;
+}
+
+/*Popup*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1200;
+}
+.popup {
+ margin: 870px auto;
+ padding: 20px;
+ background: #fff;
+ border-radius: 15px;
+ font-size: 30px;
+ width: 70%;
+ position: relative;
+ transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 13px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+.popup .close:hover {
+  color: blue;
+}
+.popup .content {
+    max-height: 30%;
+    margin-top: 40px;
+    overflow: auto;
+    padding-bottom: 35px;
+    padding-left: 60px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: TelenorRegularimport;
+}

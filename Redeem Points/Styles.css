@@ -1,0 +1,123 @@
+@font-face{
+  font-family: telenorItalicimport;
+  src:url(telenorItalic.TTF); 
+
+}
+@font-face{
+  font-family: TelenorRegularimport;
+  src:url(TelenorRegular.TTF);
+
+}
+body{
+ height: 1920px;
+ width: 1080px;
+ background-image: url("redeem points.png");
+ background-repeat: no-repeat;
+}
+.btn{
+  background-color: transparent!important;
+}
+.container-fluid{
+ padding: 0px;
+ margin: 0px;
+}
+
+.Home-button{
+ position: absolute;
+ top: 80px;
+ right: 64px;
+
+}
+.back-button{
+ position: absolute;
+ top: 80px;
+ left: 64px;
+}
+.jumbotron{
+ background-color: #303030;
+}
+.jumbotron .btn {
+ font-size: 50px;
+ padding: 14px 24px;
+ color: white;
+}
+.offer{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 245px;
+    left: 42px;
+    top: 260px;
+}
+.Flexiplan{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 237px;
+    left: 42px;
+    top: 530px;
+}
+.Action-packs{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 238px;
+    left: 42px;
+    top: 791px;
+}
+.internet{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 238px;
+    left: 42px;
+    top: 1052px;
+}
+.talk-time{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 211px;
+    left: 42px;
+    top: 1567px;
+}
+.bundles{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 241px;
+    left: 42px;
+    top: 1311px;
+}
+.discount-packs{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 241px;
+    left: 42px;
+    top: 1411px;
+}
+.redeem-points{
+    position: absolute;
+    z-index: 1100;
+    background-color: red;
+    opacity: .3;
+    width: 1000px;
+    height: 160px;
+    left: 42px;
+    top: 1598px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML in tooltip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- styles -->
+    <link href="../bootstrap.min.css" rel="stylesheet">
+    <link href="../demo.css" rel="stylesheet">
+
+    <!-- Add IntroJs styles -->
+    <link href="../introjs.css" rel="stylesheet">
+    <link href="../bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+
+          <div class="nav-offer">
+                    <a href="../index.html"><div class="Home-button" id="step2">
+                  
+                       <button type="button" class="btn"><img src="home button .png" style="height: 60px;"></button>
+                      
+                    </div>
+                   </a>
+
+                   <a href="../buyPacks/index.html"> 
+                    <div  class="back-button" id="step3">
+                        
+                         <button type="button" class="btn"><img src="back button .png" style="height: 60px;"></button>
+                      
+                    </div>
+                    </a>
+          </div>
+
+          <div class="Quick-amount" id="step1">
+            <img src="offers1.png">
+          </div>
+          
+        <div class="jumbotron" style="position: fixed;width: 100%;top:1709px;height: 150px;">
+        <p style="color: white;display: inline-block;font-size: 60px!important;margin-right: 380px;margin-top: -13px;">My GP Tutorial </p>
+         <a  class="btn1" href="javascript:void(0);" onclick="startIntro();">Show Me</a>
+      </div>
+
+
+    </div>
+    <script type="text/javascript" src="../intro.js"></script>
+    <script type="text/javascript">
+      function startIntro(){
+        var intro = introJs();
+          intro.setOptions({
+            steps: [
+             
+              {
+                element: '#step1',
+                intro: 'Here you will be able to choose and purchase your preferred offer packages',
+                position: 'bottom'
+              },
+              {
+                element: '#step2',
+                intro: 'Tap here to go home',
+                position: 'left'
+              },
+
+              {
+                element: '#step3',
+                intro: 'Tap here to go back',
+                position: 'right'
+              },
+              
+            ]
+          });
+
+          intro.start();
+      }
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,52 @@
+@font-face{
+  font-family: telenorItalicimport;
+  src:url(telenorItalic.TTF); 
+
+}
+@font-face{
+  font-family: TelenorRegularimport;
+  src:url(TelenorRegular.TTF);
+
+}
+body{
+ height: 1920px;
+ width: 1080px;
+ padding: 0px;
+ background-color: #f7f7f7;
+}
+.nav-notification{
+ height: 244px;
+ position: fixed;
+ z-index: 1000;
+}
+.btn{
+  background-color: transparent!important;
+}
+.container-fluid{
+ padding: 0px;
+ margin: 0px;
+}
+
+.Home-button{
+ position: absolute;
+ top: 80px;
+ right: 64px;
+
+}
+.back-button{
+ position: absolute;
+ top: 80px;
+ left: 64px;
+}
+.jumbotron{
+ background-color: #303030;
+}
+.jumbotron .btn {
+ font-size: 50px;
+ padding: 14px 24px;
+ color: white;
+}
+.body-internet{
+ height: auto;
+ margin-top: 244px;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML in tooltip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- styles -->
+    <link href="../bootstrap.min.css" rel="stylesheet">
+    <link href="../demo.css" rel="stylesheet">
+
+ 
+     <!-- Add IntroJs styles -->
+    <link href="../introjs.css" rel="stylesheet">
+    <link href="../bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+            
+    </script>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+
+        <div class="nav-notification">
+               <img src="flexiplan 1 .png">
+               <a href="../index.html"><div class="Home-button" >
+                
+                     <button type="button" class="btn"><img src="home button .png" style="height: 60px;"></button>
+                    
+               </div></a>
+               <a href="../index.html"><div  class="back-button">
+                      
+                       <button type="button" class="btn"><img src="back button .png" style="height: 60px;"></button>
+                    
+               </div></a>
+
+        </div>
+
+         <div class="jumbotron" style="position: fixed;width: 1080px;top:1709px;height: 150px; z-index: 10000 ">
+              <p style="color: white;display: inline-block;font-size: 60px!important;margin-right: 380px;margin-top: -13px;">My GP Tutorial </p>
+               <a  class="btn1" href="javascript:void(0);" onclick="startIntro();">Show Me</a>
+         </div>
+ 
+
+        <div class="row col-md-12 internet" style="margin-top: 250px;"  id="step1">
+          <div class="col-md-4" id="internet-left">
+            <img src="flexiplan 2 .png" id="internet-img">
+            <p id="internet-tag"><b></b></p>
+          </div>
+          <div class="col-md-8">
+            <div class="internet-cercle1  internet-click">0 MB</div>
+            <div class="internet-cercle internet-click">20 MB</div>
+            <div class="internet-cercle  internet-click">50 MB</div><br>
+            <div class="internet-cercle4  internet-click">100 MB</div>
+            <div class="internet-cercle  internet-click">250 MB</div>
+            <div class="internet-cercle  internet-click">500 MB</div><br>
+            <div class="internet-cercle7  internet-click">1.5 GB</div>
+            <div class="internet-cercle internet-click">3 GB</div>
+            <div class="internet-cercle  internet-click">5 GB</div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="height: 2px; width: 96%;background-color: grey;margin-left: 2%;margin-top: 2%;" ></div>
+
+        <div class="row col-md-12 talktime" id="step2">
+          <div class="col-md-4" style="height: 500px;padding: 0px;">
+            <img src="flexiplan 3 .png" id="internet-img">
+             <p id="talktime-tag"><b></b></p>
+             <p id="active-normal">GP - GP</p> <br>
+             <p id="other-normal" >Any Network</p>
+          </div>
+          <div class="col-md-8" >
+            <div class="internet-cercle1 talk-click">0 Min</div>
+            <div class="internet-cercle  talk-click">10 Min</div>
+            <div class="internet-cercle  talk-click">25 Min</div><br>
+            <div class="internet-cercle4  talk-click">50 Min</div>
+            <div class="internet-cercle  talk-click">100 Min</div>
+            <div class="internet-cercle talk-click">300 Min</div><br>
+            <div class="internet-cercle7 talk-click">500 Min</div>
+            <div class="internet-cercle talk-click">1000 Min</div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="height: 2px; width: 96%;background-color: grey;margin-left: 2%;margin-top: 2%;" ></div>
+         
+        <div class="row col-md-12 validity" id="step3">
+          <div class="col-md-4" style="height: 350px;padding: 0px;">
+             <img src="flexiplan 4.png" id="internet-img">
+             <p id="validity-tag"><b></b></p>
+
+          </div>
+          <div class="col-md-8" >
+            <div class="internet-cercle1  validity-click">1 Day</div>
+            <div class="internet-cercle validity-click">7 Day</div>
+            <div class="internet-cercle validity-click">15 Day</div><br>
+            <div class="internet-cercle4  validity-click">30 Day</div>
+          </div>
+        </div> 
+
+        <div class="col-md-4" style="height: 2px; width: 96%;background-color: grey;margin-left: 2%;margin-top: 2%;" ></div>
+
+        <div class="row col-md-12 sms" id="step4">
+             
+            <div class="col-md-4" style="height: 500px;padding: 0px;">
+              <img src="flexiplan 5.png" id="internet-img">
+              <p id="sms-tag"><b></b></p>
+            </div>
+            <div class="col-md-8" >
+              <div class="internet-cercle1  sms-click">0</div>
+              <div class="internet-cercle  sms-click">50</div>
+              <div class="internet-cercle  sms-click">300</div><br>
+              <div class="internet-cercle4  sms-click">500</div>
+            </div>
+        </div> 
+        
+        <!-- Popup -->
+        <div id="popup1" class="overlay">
+              <div class="popup">
+                  <div class="upper-design"></div>
+                  <a class="close" href="#popup1">Okay<a/>
+                  <div class="content ">
+                     Complete Flexiplan on your App MyGp and Get 100 Rewards Points.
+                  </div>
+              </div>
+        </div>
+
+
+
+    </div>
+   
+      <script type="text/javascript" src="../intro.js"></script>
+    <script type="text/javascript">
+      function startIntro(){
+        var intro = introJs();
+          intro.setOptions({
+            steps: [
+             
+              {
+                element: '#step1',
+                intro: 'These are the features of the App that Lets you choose packages and view updates. ',
+                position: 'bottom'
+              },
+              {
+                element: '#step2',
+                intro: 'This area shows you your Personal Information and package status.',
+                position: 'left'
+              },
+
+              {
+                element: '#step3',
+                intro: 'This area shows you your Billing status and Account balance.',
+                position: 'right'
+              },
+              {
+                element: '#step4',
+                intro: 'You Can Avail discounts and offers in this area by shaking your phone.',
+                position: 'right'
+              },
+              
+            ]
+          });
+
+          intro.start();
+      }
+      $(document).ready(function(){ 
+
+        $('#active-normal').click(function(){
+        $('#active-normal').addClass('battijole');
+        $('#other-normal').removeClass('battijole');
+        });
+
+        $('#other-normal').click(function(){
+        $('#other-normal').addClass('battijole');
+        $('#active-normal').removeClass('battijole');
+        });
+
+        $('.internet-click:nth-child(1)').addClass('internet-battijole');
+        $('#internet-tag').html($('.internet-click:nth-child(1)').html());
+        $('.talk-click:nth-child(1)').addClass('talk-battijole');
+          $('#talktime-tag').html($('.talk-click:nth-child(1)').html());
+        $('.validity-click:nth-child(1)').addClass('validity-battijole');
+          $('#validity-tag').html($('.validity-click:nth-child(1)').html());
+        $('.sms-click:nth-child(1)').addClass('sms-battijole');
+          $('#sms-tag').html($('.sms-click:nth-child(1)').html());
+
+        $('.internet-click').click(function(){
+          $('.internet-click').removeClass('internet-battijole');
+          $(this).addClass('internet-battijole');
+          $('#internet-tag').html($(this).html());
+        });
+        $('.talk-click').click(function(){
+          $('.talk-click').removeClass('talk-battijole');
+          $(this).addClass('talk-battijole');
+          $('#talktime-tag').html($(this).html());
+        });
+        $('.validity-click').click(function(){
+          $('.validity-click').removeClass('validity-battijole');
+          $(this).addClass('validity-battijole');
+          $('#validity-tag').html($(this).html());
+        });
+        $('.sms-click').click(function(){
+          $('.sms-click').removeClass('sms-battijole');
+          $(this).addClass('sms-battijole');
+          $('#sms-tag').html($(this).html());
+        });
+      });
+    </script>
+  </body>
+</html>
+
