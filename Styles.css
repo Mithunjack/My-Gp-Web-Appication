@@ -327,6 +327,34 @@ a:focus, a:hover {
     left: 68px;
     top: 123px;
 }
+.account-balance-div{
+    position: absolute;
+    height: 400px;
+    top: 92px;
+    width: 399px;
+    left: 83px;
+}
+.account-balance-internetdiv{
+    position: absolute;
+    height: 140px;
+    top: 77px;
+    width: 510px;
+    left: 520px;
+}
+.account-balance-voicediv{
+    position: absolute;
+    height: 152px;
+    top: 237px;
+    width: 510px;
+    left: 520px;
+}
+.account-balance-smsdiv{
+    position: absolute;
+    height: 152px;
+    top: 418px;
+    width: 510px;
+    left: 520px;
+}
 
 /*Popup*/
 .overlay {
