@@ -162,10 +162,8 @@ a:focus, a:hover {
     height: 70px;
     width: 246px;
     position: absolute;
-    top: 45px;
-    left: 56px;
-    /*background-color: red;
-    opacity: .3;*/
+    top: 38px;
+    left: 13px;
 }
 .account-Balance-internet{
     height: 70px;
@@ -195,13 +193,11 @@ a:focus, a:hover {
     opacity: .3;*/
 }
 .account-Balance-payBill{
-    height: 99px;
-    width: 320px;
+    height: 284px;
+    width: 926px;
     position: absolute;
-    top: 567px;
-    left: 367px;
-    /*background-color: red;
-    opacity: .3;*/
+    top: 466px;
+    left: 91px;
 }
 
 /*Popup*/

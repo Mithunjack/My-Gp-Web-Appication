@@ -175,10 +175,8 @@ a:focus, a:hover {
     height: 70px;
     width: 246px;
     position: absolute;
-    top: 45px;
-    left: 348px;
-    /*background-color: red;
-    opacity: .3;*/
+    top: 38px;
+    left: 280px;
 }
 .account-Balance-voice{
     height: 70px;
@@ -202,10 +200,8 @@ a:focus, a:hover {
     height: 126px;
     width: 538px;
     position: absolute;
-    top: 434px;
+    top: 415px;
     left: 270px;
-    /*background-color: red;
-    opacity: .3;*/
 }
 
 /*Popup*/

@@ -193,19 +193,15 @@ a:focus, a:hover {
     height: 70px;
     width: 143px;
     position: absolute;
-    top: 45px;
-    left: 867px;
-   /* background-color: red;
-    opacity: .3;*/
+    top: 40px;
+    left: 869px;
 }
 .account-Balance-payBill{
     height: 129px;
     width: 428px;
     position: absolute;
-    top: 432px;
+    top: 412px;
     left: 325px;
-    /*background-color: red;
-    opacity: .3;*/
 }
 
 /*Popup*/

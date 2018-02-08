@@ -184,10 +184,8 @@ a:focus, a:hover {
     height: 70px;
     width: 198px;
     position: absolute;
-    top: 45px;
-    left: 638px;
-    /*background-color: red;
-    opacity: .3;*/
+    top: 38px;
+    left: 578px;
 }
 .account-Balance-sms{
     height: 70px;
@@ -202,11 +200,8 @@ a:focus, a:hover {
     height: 127px;
     width: 537px;
     position: absolute;
-    top: 433px;
-    left: 270px;
-/*    background-color: red;
-    opacity: .3;
-*/
+    top: 415px;
+    left: 270px
 }
 
 /*Popup*/
